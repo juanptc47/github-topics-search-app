@@ -3,7 +3,7 @@ import * as request from 'superagent';
 import { Topic } from '../store/store-types';
 
 export class GithubTopicsAPI {
-    public readonly host: string = process.env.NODE_ENV==='production' ? 'https://api.github.coms/earch/topics' : 'https://api.github.com/search/topics';
+    public readonly host: string = process.env.NODE_ENV==='production' ? 'https://api.github.com/search/topics' : 'https://api.github.com/search/topics';
     public readonly port: string = null;
     public readonly apiBaseURL: string = this.host+(this.port ? ':'+this.port : '');
     public readonly headers = {
