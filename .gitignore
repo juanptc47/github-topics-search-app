@@ -1,0 +1,9 @@
+
+# Ignore Node packages dependencies
+node_modules
+
+# Ignore development build
+public/dev/
+
+# Ignore development build
+public/dist/
